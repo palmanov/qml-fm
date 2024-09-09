@@ -1,0 +1,12 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+    <interface name="com.example.filehelper">
+        <method name="DeleteFile">
+            <arg type="s" name="filePath" direction="in"/>
+        </method>
+        <method name="PasteFile">
+            <arg type="s" name="source" direction="in"/>
+            <arg type="s" name="destination" direction="in"/>
+        </method>
+    </interface>
+</node>

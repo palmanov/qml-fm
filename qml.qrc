@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Main.qml</file>
+        <file>qml/FmTableView.qml</file>
+        <file>qml/FmGridView.qml</file>
+        <file>qml/FmGridViewDelegate.qml</file>
+        <file>qml/FmListView.qml</file>
+        <file>qml/FmListViewDelegate.qml</file>
+    </qresource>
+</RCC>

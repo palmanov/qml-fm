@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+export DEB_BUILD_OPTIONS=nostrip noopt debug
+include /usr/share/dpkg/default.mk
+SHELL=/bin/bash
+
+%:
+	dh $@ --builddirectory=build --buildsystem=cmake
+
+override_dh_shlibdeps:
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info

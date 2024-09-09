@@ -1,0 +1,3 @@
+build/qmlfilemanager                            /usr/bin
+build/service/filehelper                        /usr/bin
+service/com.example.filehelper.service          /usr/share/dbus-1/services
